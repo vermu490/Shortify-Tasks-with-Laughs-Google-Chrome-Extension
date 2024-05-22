@@ -1,0 +1,169 @@
+body {
+    width: 320px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 10px;
+}
+
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: #4caf50; /* Green color */
+    color: white;
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+}
+
+.card-title {
+    margin: 0;
+    font-weight: bold; /* Bold text */
+}
+
+.card-subtitle {
+    margin: 5px 0 0;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.card-footer {
+    padding: 10px;
+    text-align: right;
+}
+
+.toast {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: none;
+}
+
+.toast-error {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.toast-success {
+    background-color: #2ecc71;
+    color: white;
+}
+
+.loading {
+    display: none;
+}
+
+.d-hide {
+    display: none;
+}
+
+/* To-Do List Styles */
+.todo-list {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.todo-list .card-header {
+    background-color: #4caf50;
+    color: white;
+    border-radius: 8px 8px 0 0;
+}
+
+.todo-list .card-title {
+    margin: 0;
+    font-weight: bold;
+}
+
+.todo-list .card-body {
+    padding: 10px;
+}
+
+.todo-list .form-input {
+    width: calc(100% - 40px);
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+.todo-list .form-input::placeholder {
+    color: #aaa;
+}
+
+.todo-list .list-group {
+    padding: 0;
+    list-style: none;
+}
+
+.todo-list .list-group-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.todo-list .list-group-item:last-child {
+    border-bottom: none;
+}
+
+.todo-list .list-group-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.todo-list .list-group-item span {
+    flex: 1;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.todo-list .list-group-item .delete-button {
+    cursor: pointer;
+    font-size: 18px;
+    color: #f44336;
+}
+
+/* URL Shortener Styles */
+.url-shortener .card-header {
+    background-color: #4caf50; /* Green color */
+    color: white;
+    border-radius: 8px 8px 0 0;
+}
+
+.url-shortener .card-title {
+    margin: 0;
+    font-weight: bold; /* Bold text */
+}
+
+.url-shortener .card-body {
+    padding: 10px;
+}
+
+.url-shortener .form-input {
+    width: calc(100% - 40px);
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+.url-shortener .form-input::placeholder {
+    color: #aaa;
+}
+
+.url-shortener .generated-url {
+    font-weight: bold; /* Bold text */
+    color: #4caf50; /* Green color */
+    margin-top: 10px;
+    background-color: transparent; /* Remove background */
+}

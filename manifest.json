@@ -1,0 +1,16 @@
+{
+    "name": "Shortify Tasks with Laughs",
+    
+    "version": "0.1",
+    "description": "Shorten URLs effortlessly, manage to-do tasks seamlessly, and enjoy a dash of humor with dad jokes.",
+    "icons": {
+        "128": "logo.png"
+    },
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "manifest_version": 2,
+    "permissions": [
+        "storage"
+    ]
+}

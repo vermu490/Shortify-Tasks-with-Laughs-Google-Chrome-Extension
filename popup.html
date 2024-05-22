@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="popup.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/spectre.css/0.5.9/spectre.min.css">
+    <title>My URL Shortener & To-Do List : Verma-Link-List</title>
+</head>
+<body>
+    <div class="dad-joke">
+        <p id="dadJoke" class="text-italic">Loading joke...</p>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            <div class="toast toast-error d-hide">Please enter a valid URL.</div>
+            <div class="card-title h5">URL Shortener</div>
+            <div class="card-subtitle text-gray">Enter URL</div>
+            <div class="card-subtitle text-gray">Made by Verma</div>
+        </div>
+        <div class="card-body">
+            <div class="form-group">
+                <input class="form-input" type="text" id="myurl" placeholder="Enter URL">
+            </div>
+        </div>
+        <div class="card-footer">
+            <div class="loading d-hide"></div>
+            <button class="btn btn-primary" id="shortURL">Generate short URL</button>
+            <div class="toast toast-success d-hide"></div>
+        </div>
+    </div>
+
+    <div class="todo-list card">
+        <div class="card-header">
+            <h3 class="card-title h5">To-Do List</h3>
+        </div>
+        <div class="card-body">
+            <input class="form-input" type="text" id="todoInput" placeholder="Add new task">
+            <ul id="todoList" class="list-group"></ul>
+        </div>
+    </div>
+</body>
+</html>
